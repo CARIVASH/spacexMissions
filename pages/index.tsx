@@ -184,7 +184,7 @@ export default function Home() {
               :
               <Box width="100%" display="flex" justifyContent={{ lg: "flex-start", md: "flex-star", base: "space-between" }} position={{ lg: "absolute", md: "absolute", base: "relative" }} padding={{ lg: "10px", base: "8px" }} fontSize="25px">
                 Result(s): ´{inputName}´
-                <Button onClick={ClearClick}>Clear Search</Button>
+                <Button zIndex="1" onClick={ClearClick}>Clear Search</Button>
               </Box>
             }
             <InputGroup flex="true" justifyContent="flex-end" paddingRight="15px">
